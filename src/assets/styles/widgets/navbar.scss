@@ -1,0 +1,9 @@
+@import '../global/variables';
+
+.navbar {
+  background-color: $primary-color;
+
+  a.navbar-brand {
+    color: $secondary-color;
+  }
+}

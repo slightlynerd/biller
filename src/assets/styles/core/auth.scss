@@ -1,0 +1,18 @@
+@import '../global/variables';
+
+.main-content {
+
+  .title {
+    color: $primary-color;
+  }
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.form-control {
+  margin: 30px 0;
+}

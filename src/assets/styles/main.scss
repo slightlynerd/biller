@@ -1,0 +1,30 @@
+@import './global/buttons';
+@import './global/fonts';
+@import './global/inputs';
+@import './global/variables';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #212121;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+a {
+  color: $accent-color;
+
+  &:hover {
+    text-decoration: underline;
+    color: $accent-color;
+  }
+}
+
+.toast {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

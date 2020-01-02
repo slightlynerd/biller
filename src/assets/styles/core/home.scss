@@ -1,0 +1,19 @@
+@import '../global/variables';
+
+.bill {
+
+  .bill-amount {
+    color: $accent-color;
+  }
+}
+
+.fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: $accent-color;
+  color: $secondary-color;
+  padding: 15px 25px;
+  border-radius: 50%;
+  font-size: 28px;
+}
